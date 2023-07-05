@@ -137,7 +137,7 @@ input[type="color"] {
 }
 
 .header-background {
-  background:linear-gradient(30deg,#83D475,white);
+  background:linear-gradient(-30deg,#51b93f,white);
   position: absolute;
   top: 0;
   height: 1050px;
@@ -343,10 +343,10 @@ input[type="color"] {
   font-family: "Roobert";
   box-sizing: border-box;
 
-  border: double 3px transparent;
+  border: double 2px transparent;
   border-radius: 10px;
   background-image: linear-gradient(white, white),
-    -webkit-linear-gradient(102.89deg, #373fff 11.81%, #00b2ff 62.61%, #1c24de
+    -webkit-linear-gradient(102.89deg, #059600 11.81%, #09ff00 62.61%, #0a900e
           97.36%);
   background-origin: border-box;
   background-clip: padding-box, border-box;
@@ -405,9 +405,9 @@ input[type="color"] {
 .header-button {
   background: conic-gradient(
     from 31.49deg at 54.76% 56.94%,
-    #373fff 0deg,
-    #00c2ff 210deg,
-    #0c4cf1 360deg
+    #054908 0deg,
+    #137811 210deg,
+    #076018 360deg
   );
   border-radius: 10px;
   border: none;
@@ -1020,13 +1020,13 @@ input[type="color"] {
 }
 
 .join-span {
-  font-size: 10px;
+  font-size: 20px;
   margin-top: 15px;
   margin: 0 auto;
   margin-top: 5px;
   box-sizing: border-box;
   text-align: center;
-  color: #4b65a8;
+  color: #069c00;
 }
 
 @media only screen and (max-width: 650px) {
