@@ -130,20 +130,22 @@ input[type="color"] {
 /* Header */
 
 .header-section {
+  background: #000;
   height: 1050px;
   position: relative;
   z-index: 10;
 }
 
 .header-background {
+  background:linear-gradient(30deg,rgb(52, 212, 52),white);
   position: absolute;
   top: 0;
   height: 1050px;
   width: 100%;
-  background: url("assets/background.png");
-  background-size: cover;
-  background-position: center;
-  object-fit: cover;
+  /* background: url("assets/background.png"); */
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* object-fit: cover;  */
 
   z-index: -2;
 
