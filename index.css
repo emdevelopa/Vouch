@@ -130,14 +130,14 @@ input[type="color"] {
 /* Header */
 
 .header-section {
-  background: #000;
+  /* background: #000; */
   height: 1050px;
   position: relative;
   z-index: 10;
 }
 
 .header-background {
-  background:linear-gradient(30deg,rgb(52, 212, 52),white);
+  background:linear-gradient(30deg,#83D475,white);
   position: absolute;
   top: 0;
   height: 1050px;
@@ -235,7 +235,8 @@ input[type="color"] {
 .header-logo-image {
   object-fit: cover;
   opacity: 1;
-  height: 43px;
+  height: 4em;
+  border-radius: 5px;
   width: auto;
 }
 
@@ -253,9 +254,9 @@ input[type="color"] {
 .header-title {
   background: -webkit-linear-gradient(
     102.89deg,
-    #373fff 11.81%,
-    #00b2ff 62.61%,
-    #1c24de 97.36%
+    green 11.81%,
+    rgb(21, 188, 122) 62.61%,
+    green 97.36%
   );
   -webkit-background-clip: text;
   background-clip: text;
@@ -275,7 +276,7 @@ input[type="color"] {
 @media only screen and (max-width: 1860px) {
   .header-title {
     padding: 0 100px;
-    font-size: 72px;
+    font-size: 52px;
   }
 }
 
