@@ -155,7 +155,7 @@ input[type="color"] {
 @media only screen and (max-width: 1860px) {
   .header-section,
   .header-background {
-    height: 1000px;
+    height: 800px;
   }
 }
 
@@ -182,7 +182,7 @@ input[type="color"] {
 @media only screen and (max-width: 600px) {
   .header-section,
   .header-background {
-    height: 870px;
+    height: 600px;
   }
 }
 
