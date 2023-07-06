@@ -679,7 +679,7 @@ input[type="color"] {
 }
 
 .global-tag {
-  background: linear-gradient(100.64deg, #377bff -81.04%, #00b2ff 24.28%);
+  background: linear-gradient(100.64deg, #37ff3a -81.04%, #3b7703 24.28%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -703,9 +703,9 @@ input[type="color"] {
 .global-title {
   background: conic-gradient(
     from 180deg at 50% 50%,
-    #2775ca 0deg,
-    #002b99 138.75deg,
-    #2775ca 360deg
+    #1ff029 0deg,
+    #0f900d 210deg,
+    #06901f 360deg
   );
   -webkit-background-clip: text;
   background-clip: text;
